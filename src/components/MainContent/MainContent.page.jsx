@@ -33,7 +33,6 @@ const MainContent = () => {
         src={waiinuVideo}
         autoPlay
         loop
-        controls
         playsInline
       />
       <section className="info-cards">
