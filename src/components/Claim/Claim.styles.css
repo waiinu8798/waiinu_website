@@ -1,0 +1,40 @@
+.claim {
+  text-align: center;
+}
+
+.claim-address {
+  margin-bottom: 1rem;
+}
+
+.connect-button {
+  background-color: #e639a3;
+  color: #fff;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.connect-button:hover {
+  background-color: #c72591;
+}
+
+.claim-button {
+  background-color: #7b3a89;
+  color: #fff;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.claim-button:hover {
+  background-color: #5d2c6b;
+}
+
+.claim-button:disabled {
+  background-color: #452052;
+  cursor: not-allowed;
+}

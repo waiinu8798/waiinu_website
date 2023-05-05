@@ -1,0 +1,31 @@
+.main-content {
+  background-color: #fbe1d2;
+  padding: 2rem;
+  text-align: center;
+}
+
+.description {
+  background-color: #a2d0e9;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.waiinu-logo {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.info-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.card {
+  background-color: #c3a3d9;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  width: 300px;
+}
