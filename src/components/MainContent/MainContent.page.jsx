@@ -10,6 +10,10 @@ const MainContent = () => {
   useEffect(() => {
     if (videoRef && videoRef.current) {
       videoRef.current.play();
+
+      videoRef.current.addEventListener("click", () => {
+        videoRef.current.play();
+      });
     }
   }, []);
 
@@ -29,6 +33,7 @@ const MainContent = () => {
         src={waiinuVideo}
         autoPlay
         loop
+        controls
         playsInline
       />
       <section className="info-cards">
