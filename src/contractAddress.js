@@ -1,3 +1,3 @@
 // contractAddress.js
-const contractAddress = "0xB1CE6355E3b523E1C023a165BC6c29c9Ca8D5814"; // Replace with your contract address
+const contractAddress = "0x0484aeA8c70Aae9Fb1E12E34F611a07e600c3187"; // Replace with your contract address
 export default contractAddress;
