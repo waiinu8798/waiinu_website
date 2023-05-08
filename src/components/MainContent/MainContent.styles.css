@@ -1,31 +1,58 @@
+:root {
+  --pastel-pink: #f7bec0;
+  --soft-peach: #fbe1d2;
+  --sky-blue: #a2d0e9;
+  --light-purple: #c3a3d9;
+  --vibrant-magenta: #e639a3;
+  --dark-purple: #7b3a89;
+  --deep-blue: #2b4d7f;
+  --vibrant-yellow: #ffd700;
+}
+
+body {
+  background-color: var(--soft-peach);
+  font-family: "Arial", sans-serif;
+  color: var(--deep-blue);
+}
+
 .main-content {
-  background-color: #fbe1d2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
   padding: 2rem;
-  text-align: center;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .description {
-  background-color: #a2d0e9;
-  padding: 1rem;
-  margin-bottom: 1rem;
+  text-align: center;
+  max-width: 800px;
 }
 
-.waiinu-logo {
+.waiinu-image {
   max-width: 100%;
   height: auto;
-  margin-bottom: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .info-cards {
   display: flex;
-  justify-content: center;
   flex-wrap: wrap;
+  justify-content: center;
   gap: 1rem;
 }
 
 .card {
-  background-color: #c3a3d9;
+  background-color: var(--pastel-pink);
+  border-radius: 10px;
   padding: 1rem;
-  border-radius: 0.5rem;
-  width: 300px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 300px;
+}
+
+.card h3 {
+  margin-bottom: 1rem;
+  color: var(--dark-purple);
 }

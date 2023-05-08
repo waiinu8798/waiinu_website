@@ -1,22 +1,10 @@
-import React, { useEffect, useRef } from "react";
+import React from "react";
 import Claim from "../../components/Claim";
 import "./MainContent.styles.css";
 
-import waiinuVideo from "./moneyprintergobrrr1080p.mp4";
+import waiinuImage from "./waiinu-image.jpeg";
 
 const MainContent = () => {
-  const videoRef = useRef(null);
-
-  useEffect(() => {
-    if (videoRef && videoRef.current) {
-      videoRef.current.play();
-
-      videoRef.current.addEventListener("click", () => {
-        videoRef.current.play();
-      });
-    }
-  }, []);
-
   return (
     <main className="main-content">
       <section className="description">
@@ -27,13 +15,10 @@ const MainContent = () => {
         </p>
       </section>
       <Claim />
-      <video
-        ref={videoRef}
-        className="waiinu-video"
-        src={waiinuVideo}
-        autoPlay
-        loop
-        playsInline
+      <img
+        className="waiinu-image"
+        src={waiinuImage}
+        alt="WAIINU illustration"
       />
       <section className="info-cards">
         {/* Add as many cards as you like */}
