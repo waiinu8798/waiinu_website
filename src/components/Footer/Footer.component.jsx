@@ -8,7 +8,11 @@ const Footer = () => {
         &copy; {new Date().getFullYear()} WAIINU. All rights reserved.
       </div>
       <div className="footer-social">
-        <a href="https://twitter.com/waiinu_" target="_blank" rel="noreferrer">
+        <a
+          href="https://twitter.com/waiinu_arb"
+          target="_blank"
+          rel="noreferrer"
+        >
           Twitter
         </a>
       </div>
