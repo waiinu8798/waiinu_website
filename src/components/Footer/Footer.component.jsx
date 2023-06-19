@@ -1,4 +1,6 @@
 import React from "react";
+import { FaTwitter } from "react-icons/fa";
+import { ReactComponent as CustomIcon } from "./etherscan-logo-circle.svg";
 import "./Footer.styles.css";
 
 const Footer = () => {
@@ -13,7 +15,14 @@ const Footer = () => {
           target="_blank"
           rel="noreferrer"
         >
-          Twitter
+          <FaTwitter className="twitter-icon" />
+        </a>
+        <a
+          href="https://arbiscan.io/token/0x8b0a85818cb77a89ac5e6ce1a54797419d70dec4"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <CustomIcon className="custom-icon" />
         </a>
       </div>
     </footer>

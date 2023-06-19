@@ -33,7 +33,17 @@
   color: #7b3a89;
 }
 
+.right-panel h2 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  color: #7b3a89;
+}
+
 .right-panel p {
   font-size: 1rem;
   line-height: 1.5;
+}
+
+.right-panel .token-info {
+  font-size: 1rem; /* Adjust the font size to your preference */
 }

@@ -16,3 +16,9 @@
 .footer-social a:hover {
   color: #e639a3;
 }
+
+.twitter-icon,
+.custom-icon {
+  width: 1.5rem; /* Adjust the width to your desired size */
+  height: 1.5rem; /* Adjust the height to your desired size */
+}
